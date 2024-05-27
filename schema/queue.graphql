@@ -1,0 +1,11 @@
+type QueueStates{
+    name: String
+}
+
+type Queues{
+    name: String
+    model: String
+    model_id: Int
+    action: String
+    associateTo: QueueStates @default(value: 1)
+}

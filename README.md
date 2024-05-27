@@ -1,2 +1,3 @@
-# mod-queue
-The cron job for LionRockJS
+# queue-loop
+
+CRON job for KohanaJS
