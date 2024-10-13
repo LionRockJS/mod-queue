@@ -1,8 +1,9 @@
-import url from "node:url";
-const dirname = url.fileURLToPath(new URL('.', import.meta.url)).replace(/\/$/, '');
-export default {dirname}
+export default {
+  filename: import.meta.url,
+  configs: ['queue']
+}
 
-import Queue from './classes/QueueLoop.mjs';
+import Queue from './classes/Queue.mjs';
 
 export{
   Queue,
