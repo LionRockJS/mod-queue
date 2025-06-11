@@ -4,7 +4,7 @@ import ModelQueue from './model/Queue.mjs';
 export default class Queue {
   /**
    *
-   * @returns {ControllerQueueLoop}
+   * @returns {ControllerQueue}
    * @constructor
    */
   static Instance() {

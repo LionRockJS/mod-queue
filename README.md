@@ -1,3 +1,3 @@
 # queue-loop
 
-CRON job for KohanaJS
+CRON job and Queue for LionRockJS

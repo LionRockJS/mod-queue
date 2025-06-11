@@ -9,3 +9,12 @@ type Queues{
     action: String
     associateTo: QueueStates @default(value: 1)
 }
+
+type Crons{
+    name: String
+    start: Date!
+    enabled: Boolean! @default(value: true)
+    model: String
+    model_id: Int
+    action: String
+}
